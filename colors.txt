@@ -1,0 +1,16 @@
+. transparent
+1 #ffffff
+2 #ff2121
+3 #ff2121
+4 #ff8135
+5 #fff609
+6 #249ca3
+7 #78dc52
+8 #003fad
+9 #87f2ff
+a #8e2ec4
+b #a4839f
+c #5c406c
+d #e5cdc4
+e #91463d
+f #000000
