@@ -1,3 +1,5 @@
+icon ordering: S N E W SE SW NE NW
+
 . transparent
 1 #ffffff
 2 #ff2121
