@@ -1,3 +1,5 @@
+import * as ExifReader from 'exifreader';
+
 let mode = "full-width";
 
 const canvas = document.getElementById("text")
