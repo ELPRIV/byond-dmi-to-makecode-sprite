@@ -17,7 +17,7 @@
 		<p>No need to manually create a sprite first. The code creates it for you.</p>
 	</div>
 	<form action="#" method="POST">
-		<input type="file" id="myFile" name="filename">
+		<input type="file" id="myFile" name="filename" accept=".dmi">
 
 		<div id="parameters">
 			<div id="left" class="half">
@@ -37,11 +37,6 @@
 				<label>
 					<input type="radio" name="size" id="scale" value="0.1" /> Scale image by factor
 					<input type="number" name="size" id="factor" step="0.01" disabled>
-				</label>
-				<label>
-					<input type="radio" name="size" id="custom" /> Custom resolution
-					<input type="number" name="size" id="width" class="custom" placeholder="width (px)" disabled>
-					<input type="number" name="size" id="height" class="custom" placeholder="height (px)" disabled>
 				</label>
 			</div>
 		</div>
