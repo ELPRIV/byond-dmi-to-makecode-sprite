@@ -1,2 +1,1 @@
-const canvas = document.getElementById("text");
-canvas.innerHTML = "Hello JavaScript!";
+document.getElementById("text").innerHTML = "Hello JavaScript!";
