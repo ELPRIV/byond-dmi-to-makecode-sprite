@@ -1,3 +1,9 @@
 let mode = "full-width";
 
-document.getElementById("text").innerHTML = "Hello JavaScript!";
+const canvas = document.getElementById("text")
+
+const fileInput = document.getElementById('myFile');
+fileInput.onchange = () => {
+  const selectedFile = fileInput.files[0];
+  canvas.innerHTML = selectedFile;
+}
