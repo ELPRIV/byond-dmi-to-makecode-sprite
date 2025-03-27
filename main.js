@@ -1,3 +1,2 @@
-
-const canvas = document.querySelector("canvas")
+const canvas = document.querySelector("canvas");
 canvas.innerHTML = "Hello JavaScript!";
