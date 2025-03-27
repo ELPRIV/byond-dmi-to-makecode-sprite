@@ -5,6 +5,6 @@ const canvas = document.getElementById("text")
 const fileInput = document.getElementById('myFile');
 fileInput.onchange = () => {
   const selectedFile = fileInput.files[0];
-  let metadata = ImageMetadataReader.readMetadata(selectedFile);
+  Metadata metadata = ImageMetadataReader.readMetadata(selectedFile);
   canvas.innerhtml = metadata;
 }
