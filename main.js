@@ -1,4 +1,4 @@
-taimport 'metadata-extractor'
+import 'metadata-extractor'
 
 let canv = document.getElementById("text");
 let fi = document.getElementById('myFile');
