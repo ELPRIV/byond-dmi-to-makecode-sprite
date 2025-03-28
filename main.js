@@ -1,4 +1,4 @@
-import 'metadata-extractor'
+taimport 'metadata-extractor'
 
 let canv = document.getElementById("text");
 let fi = document.getElementById('myFile');
@@ -6,6 +6,6 @@ let fi = document.getElementById('myFile');
 window.document.getElementById('myFile').onchange = () => {
   let selectedFile = fi.files[0];
   canv.innerhtml = "test";
-  let metadata = PNGMetadataReader.readMetadata(selectedFile);
+  let meta = PNGMetadataReader.readMetadata(selectedFile);
   console.log(metadata);
 }
