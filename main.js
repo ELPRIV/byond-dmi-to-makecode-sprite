@@ -1,4 +1,4 @@
-import *
+import pleasework
 
 let canv = document.getElementById("text");
 let fi = document.getElementById('myFile');
