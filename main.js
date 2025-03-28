@@ -7,7 +7,7 @@ async function readZtxt(file) {
             if (zTXtChunks) {
                 zTXtChunks.forEach(chunk => {
                     console.log(`Keyword: ${chunk.keyword}, Text: ${chunk.text}`);
-                    a.append([chunk.keyword,chunk.text]),
+                    a.append([chunk.keyword,chunk.text]);
                 });
             } else {
               console.log('No zTXt chunks found.');
