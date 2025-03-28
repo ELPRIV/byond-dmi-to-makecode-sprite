@@ -1,4 +1,4 @@
-import pleasework
+import * from 'pleasework'
 
 let canv = document.getElementById("text");
 let fi = document.getElementById('myFile');
