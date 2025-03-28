@@ -1,6 +1,6 @@
-import * from 'metadata-extractor';
+import *;
 
-const canvas = document.getElementById("text")
+const canvas = document.getElementById("text");
 
 const fileInput = document.getElementById('myFile');
 fileInput.onchange = () => {
