@@ -1,4 +1,4 @@
-import * from metadata-extractor
+import * from 'metadata-extractor';
 
 const canvas = document.getElementById("text")
 
