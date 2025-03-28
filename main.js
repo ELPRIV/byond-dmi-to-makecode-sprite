@@ -1,7 +1,7 @@
-//import *
+import 'metadata-extractor'
 
-let canv = window.document.getElementById("text");
-let fi = window.document.getElementById('myFile');
+let canv = document.getElementById("text");
+let fi = document.getElementById('myFile');
  
 window.document.getElementById('myFile').onchange = () => {
   let selectedFile = fi.files[0];
