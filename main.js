@@ -1,11 +1,11 @@
 import *
 
-let canvas = document.getElementById("text");
+let canv = document.getElementById("text");
 
-let fileInput = document.getElementById('myFile');
-fileInput.onchange = () => {
-  let selectedFile = fileInput.files[0];
-  canvas.innerhtml = "test";
+let fi = document.getElementById('myFile');
+fi.onchange = () => {
+  let selectedFile = fi.files[0];
+  canv.innerhtml = "test";
   Metadata metadata = PNGMetadataReader.readMetadata(selectedFile);
   console.log(metadata);
 }
