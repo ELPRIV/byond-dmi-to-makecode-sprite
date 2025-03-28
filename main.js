@@ -1,4 +1,5 @@
 
+
 const canvas = document.getElementById("text")
 
 const fileInput = document.getElementById('myFile');
